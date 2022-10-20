@@ -1,0 +1,127 @@
+body {
+  background-color: rgb(51, 51, 51);
+  /* color: #fff; */
+}
+
+.App {
+  text-align: center;
+  margin-top: -80px;
+  color: #fff;
+}
+
+.heading-section {
+  background: linear-gradient(to right, rgb(19, 16, 143), rgb(190, 198, 199));
+  padding: 80px;
+  padding-bottom: 80px;
+}
+
+.title {
+  font-weight: bold;
+  color: white;
+  text-shadow: 0px 1px 2px rgba(black, 0.4);
+  text-align: center;
+}
+
+.label {
+  color: white;
+  text-shadow: 0px 1px 2px rgba(black, 0.4);
+  text-align: left;
+  padding-top: 90px;
+}
+
+.icon {
+  margin-right: 10px;
+  margin-left: -1px;
+}
+
+.taskBg {
+  background-color: #fff;
+  color: rgb(51, 51, 51);
+  border-radius: 6px;
+  margin-bottom: 20px;
+  padding: 10px 140px 10px 15px;
+  text-align: left;
+  font-size: 22px;
+  position: relative;
+}
+
+.taskBg div {
+  display: flex;
+  align-items: center;
+}
+
+.taskNumber {
+  color: rgb(102, 102, 102);
+  border: 1px solid rgb(102, 102, 102);
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  text-align: center;
+  font-size: 14px;
+  margin-right: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.taskBg .taskText {
+  flex: 1;
+}
+
+.taskBg .done .taskText {
+  text-decoration: line-through;
+  opacity: 0.3;
+}
+
+.taskBg .iconsBox {
+  position: absolute;
+  top: 20%;
+  bottom: 0;
+  transform: translateY(-50%);
+  right: 15px;
+  width: auto;
+  display: inline-block;
+  
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(10px);
+  transition: opacity 0.2s, visibility 0.2s, transform 0.2s;
+}
+
+.taskBg:hover .iconsBox {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0.1s;
+  transform: translateX(0);
+}
+
+.taskBg .iconsBox span {
+  display: inline-block;
+  margin: 0px 10px 0px 10px;
+  cursor: pointer;
+  color: rgb(102, 102, 102);
+}
+
+.taskBg .iconsBox .check:hover {
+  color: #259762;
+}
+
+.taskBg .iconsBox .done {
+  color: #259762;
+}
+
+.taskBg .iconsBox .edit:hover {
+  color: #2e4ac4;
+}
+
+.taskBg .iconsBox .click {
+  color: #2e4ac4;
+}
+
+.taskBg .iconsBox .delete:hover {
+  color: #a81212;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
