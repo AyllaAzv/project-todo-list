@@ -50,6 +50,10 @@ npm start
 yarn
 yarn start
 ```
+**JDK**
+```
+JDK versão 11 ou superior
+```
 
 <h2> ⚙ Pré-requisitos </h2>
 
@@ -57,6 +61,8 @@ Para executar este projeto você deve ter [Nodejs](https://nodejs.org/) instalad
 
 O gerenciador de pacotes [Yarn](https://yarnpkg.com/) é opcional. Baseado no NPM, é um pouco diferente em alguns fatores, melhorando alguns problemas que o NPM teria. 
 Mas pode optar por usar o NPM sem problemas. Você precisa executar o `npm start` pelo terminal na pasta do projeto. 
+
+E também será necessário ter a JDK instalada em sua máquina com o Java versão 11 ou superior.
 
 <h2> 🤝🏼 Contribuições </h2>
 
