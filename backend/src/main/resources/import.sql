@@ -1,0 +1,1 @@
+INSERT INTO tarefa(descricao, concluido) VALUES ('Teste', 0);
