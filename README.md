@@ -1,15 +1,15 @@
 <div align="center">
 
-  <img src="./frontend/public/logo192.png" alt="logodreact" />
+  <img src="./github/print-todolist.png" alt="printproject" />
   <h1><strong> ToDo List </strong></h1>
   
   ![languages-shield](https://shields.io/github/languages/count/daniels-hc/project-todo-list?style=flat&color=5965E0)
   ![license-shield](https://shields.io/github/license/daniels-hc/project-todo-list?style=flat&color=5965E0)
   ![version-shield](https://img.shields.io/static/v1?label=version&message=1&color=4CD62B)
 
-  **É um projetinho é bem bacana de lista de tarefas**
+  **É um projetinho bem bacana de lista de tarefas 📃**
   
-  <img width="700" src="./github/Screenshot_dsmeta.png" alt="relatoriodsmeta" />
+  <img width="50" src="./frontend/public/logo192.png" alt="relatoriodsmeta" />
 
 </div>
 
