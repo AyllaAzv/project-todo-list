@@ -29,6 +29,7 @@ Construido usando react e javascript no front e java com springboot no back.
 - 💾 Banco de dados postgres
 - ⚛️ ReactJS
 - 🆙 JavaScript
+- 🎨 Bootstrap
 
 <h2> 📑 Features </h2>
 
