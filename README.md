@@ -60,7 +60,8 @@ JDK versão 11 ou superior
 Para executar este projeto você deve ter [Nodejs](https://nodejs.org/) instalado em sua máquina.
 
 O gerenciador de pacotes [Yarn](https://yarnpkg.com/) é opcional. Baseado no NPM, é um pouco diferente em alguns fatores, melhorando alguns problemas que o NPM teria. 
-Mas pode optar por usar o NPM sem problemas. Você precisa executar o `npm start` pelo terminal na pasta do projeto. 
+Mas pode optar por usar o NPM sem problemas. 
+Você precisa executar o `npm start` pelo terminal na pasta do projeto. 
 
 E também será necessário ter a JDK instalada em sua máquina com o Java versão 11 ou superior.
 
